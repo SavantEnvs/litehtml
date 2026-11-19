@@ -1,0 +1,9 @@
+project: savantenvs/litehtml
+target: fuzz_events
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_events/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_events
+    libfuzzer: true
+    timeout: 10

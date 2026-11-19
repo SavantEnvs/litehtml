@@ -1,0 +1,9 @@
+project: savantenvs/litehtml
+target: fuzz_render_cairo
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_render_cairo/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_render_cairo
+    libfuzzer: true
+    timeout: 10

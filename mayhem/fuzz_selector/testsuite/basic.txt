@@ -1,0 +1,1 @@
+div > p:nth-child(2n+1):not(.q), ul li:first-child + li, [data-x~="2"], a[href^="http"], :lang(en), input:checked

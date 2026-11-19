@@ -1,0 +1,2 @@
+http://user:pw@example.com:8080/a/b/c.html?x=1#frag
+../d/./e.css?y

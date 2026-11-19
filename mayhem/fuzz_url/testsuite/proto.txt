@@ -1,0 +1,2 @@
+file:///C:/dir/x.html
+//cdn.example.org/s.js

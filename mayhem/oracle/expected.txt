@@ -1,0 +1,21 @@
+render=800.0
+d1 #a div x=13.0 y=13.0 w=200.0 h=50.0
+d1 #b p x=8.0 y=78.0 w=784.0 h=16.0
+d1 .f span x=8.0 y=104.0 w=100.0 h=16.0
+d1 .f span x=108.0 y=104.0 w=16.0 h=16.0
+d1 .c td x=9.0 y=121.0 w=28.0 h=16.0
+d1 .c td x=39.0 y=121.0 w=16.0 h=16.0
+d1 .g div x=8.0 y=138.0 w=50.0 h=16.0
+d1 .g div x=58.0 y=138.0 w=734.0 h=16.0
+d1 .l li x=48.0 y=170.0 w=744.0 h=16.0
+d1 .l li x=48.0 y=186.0 w=744.0 h=16.0
+render2=300.0
+d1n #b p x=8.0 y=78.0 w=284.0 h=16.0
+count li:nth-child(2)=1
+count :not(span)=14
+d2 #m div x=8.0 y=8.0 w=33.0 h=10.0
+media_changed=1
+d2m #m div x=8.0 y=8.0 w=77.0 h=10.0
+decode=あい
+meta=16
+resolve=http://a.com/b/c/../e/f.css?q#h
